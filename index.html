@@ -8,134 +8,135 @@
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/font-awesome.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
 
   <body>
     <header class="header">
       <div class="box">
-        <img src="./img/logo.svg" alt="logo" />
+        <img src="./assets/img/logo.svg" alt="logo" />
         <p>Epicode-Il Blog dei developers</p>
-        <br />
-        <br />
-        <p>Home</p>
-        <p>articoli</p>
-        <p>lavora con noi</p>
+        <p><i class="fas fa-angle-double-right"></i>&nbsp Home&nbsp<i class="fas fa-angle-double-left"></i></p>
+        <p><i class="fas fa-angle-double-right"></i>&nbsp articoli &nbsp<i class="fas fa-angle-double-left"></i></p>
+        <p>
+          <i class="fas fa-angle-double-right"></i>&nbsp lavora con noi &nbsp<i class="fas fa-angle-double-left"></i>
+        </p>
       </div>
     </header>
     <main id="main">
-      <div class="box">
-        <div>
-          <h1>Come creare un template per i post</h1>
-        </div>
-        <br />
+      <div>
+        <h1>Come creare un template per i post</h1>
+      </div>
 
-        <div>
-          <p>Di mario rossi- Pubblicato il 25-10-2020</p>
-          &nbsp
-        </div>
-
-        <div>
-          <p>
-            La prima cosa da fare e suddividere in blocchi logici la pagina,identificando le parti comuni da apllicare a
-            tutte le pagine
-          </p>
-        </div>
-        <br />
-        <div class="lista">
-          <ul>
-            <li>Contenuti di intestazione del tag <code>header</code></li>
-            &nbsp
-            <li>Contenuti centrali variabili del tag <code>main</code>corpo principale</li>
-            &nbsp
-            <li>Contenuti di fine pagina comuni, da inserire con il tag <code>footer</code></li>
-            &nbsp
-          </ul>
-        </div>
-        <p>Formattazione del codice</p>
-        &nbsp
+      <div class="autore">
+        <p>Di mario rossi - Pubblicato il 25-10-2020</p>
+      </div>
+      <div>
         <p>
-          Il testo dell'articolo dovrà essere formattato per idetificare tutte le parti da selezionare con i CSS.Perciò
-          i passi saranno:
+          La prima cosa da fare e suddividere in blocchi logici la pagina,identificando le parti comuni da apllicare a
+          tutte le pagine
         </p>
-        &nbsp
+      </div>
+      &nbsp
+      <div class="lista">
+        <ul>
+          <li>Contenuti di intestazione del tag <code>header</code></li>
+          <li>Contenuti centrali variabili del tag <code>main</code>corpo principale</li>
+          <li>Contenuti di fine pagina comuni, da inserire con il tag <code>footer</code></li>
+        </ul>
+      </div>
+      <div class="box">
+        <p>
+          Formattazione del codice <br />
+          Il testo dell'articolo dovrà essere formattato per idetificare tutte le parti da
+          <span>selezionare con i CSS.</span>Perciò i passi saranno:
+        </p>
+
         <div class="lista">
           <ol>
             <li>Progettare su carta il markup finale, assegnando ad ogni specifico testo il tag appropriato</li>
-            &nbsp
+
             <li>Scrivere l'Html dai tag esterni a quelli interni e dall'alto verso il basso</li>
-            &nbsp
+
             <li>Applicare gli stili CSS</li>
           </ol>
-          &nbsp
         </div>
-        <p>L'applicazione degli stili CSS è cresciuta negli anni fino a raggiungere la diffusione pressochè totale.</p>
+      </div>
+      <p>L'applicazione degli stili CSS è cresciuta negli anni fino a raggiungere la diffusione pressochè totale.</p>
+      &nbsp
+      <div class="tabella">
+        <table>
+          <caption class="intestazione">
+            Diffusione dei CSS
+          </caption>
+          <tr>
+            <th>Anno</th>
+            <th>% di utilizzo</th>
+            <th>Supporto browsers</th>
+          </tr>
+          <tr class="riga">
+            <td>2000</td>
+            <td>20%</td>
+            <td>17%</td>
+          </tr>
+          <tr class="riga">
+            <td>2002</td>
+            <td>35%</td>
+            <td>22%</td>
+          </tr>
+          <tr class="riga">
+            <td>2004</td>
+            <td>45%</td>
+            <td>42%</td>
+          </tr>
+          <tr class="riga">
+            <td>2008</td>
+            <td>80%</td>
+            <td>51%</td>
+          </tr>
+          <tr class="riga">
+            <td>2012</td>
+            <td>100%</td>
+            <td>76%</td>
+          </tr>
+        </table>
+      </div>
+      &nbsp
+
+      <div class="box">
+        <p>
+          Un test di validazione potrà essere fatto tramite il <a href="#">tool online</a> dedicato allo scopo. Una
+          volta ottimizzato il tutto, avremo raggiunto il nostro obiettivo ed essere stati dei veri developers come
+          loro:
+        </p>
         &nbsp
-        <div class="tabella">
-          <table>
-            <caption class="intestazione">
-              Diffusione dei CSS
-            </caption>
-            <tr>
-              <th>Anno</th>
-              <th>% di utilizzo</th>
-              <th>Supporto browsers</th>
-            </tr>
-            <tr class="riga">
-              <td>2000</td>
-              <td>20%</td>
-              <td>17%</td>
-            </tr>
-            <tr class="riga">
-              <td>2002</td>
-              <td>35%</td>
-              <td>22%</td>
-            </tr>
-            <tr class="riga">
-              <td>2004</td>
-              <td>45%</td>
-              <td>42%</td>
-            </tr>
-            <tr class="riga">
-              <td>2008</td>
-              <td>80%</td>
-              <td>51%</td>
-            </tr>
-            <tr class="riga">
-              <td>2012</td>
-              <td>100%</td>
-              <td>76%</td>
-            </tr>
-          </table>
-        </div>
+        <iframe
+          width="430"
+          height="215"
+          src="https://www.youtube.com/embed/eXQmrnFMOSo?si=K7gA_WST8OVw6JP7"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </div>
+
+      <div class="box2">
         &nbsp
-        <div class="box">
-          <p>
-            Un test di validazione potrà essere fatto tramite il <a href="#">tool online</a> dedicato allo scopo. Una
-            volta ottimizzato il tutto, avremo raggiunto il nostro obiettivo ed essere stati dei veri developers come
-            loro:
-          </p>
-          &nbsp
-          <iframe
-            width="450"
-            height="215"
-            src="https://www.youtube.com/embed/eXQmrnFMOSo?si=K7gA_WST8OVw6JP7"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen
-          ></iframe>
-        </div>
-        <div class="box2">
-          <h1>NOVITA</h1>
-          &nbsp
-          <p>Vuoi rimanere aggiornato su altre novità del blog? Iscriviti alla nostra newsletter</p>
-          &nbsp
-          <form>
-            <label for="iscriviti"></label>
-            <input type="text" placeholder="Inserisci l'email" />
-            <button type="submit">Iscriviti!</button>
-          </form>
-        </div>
+        <h1>NOVITÀ</h1>
+        <p>Vuoi rimanere aggiornato su altre novità del blog? Iscriviti alla nostra newsletter</p>
+        &nbsp
+        <form>
+          <label for="iscriviti"></label>
+          <input type="text" placeholder="Inserisci l'email" />
+          <button type="submit">Iscriviti!</button>
+        </form>
       </div>
     </main>
   </body>
