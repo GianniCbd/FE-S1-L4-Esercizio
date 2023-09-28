@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&family=Prata&family=Roboto:wght@400;700&display=swap");
+
+body {
+  display: block;
+  margin-inline: auto;
+  width: 450px;
+  font-family: "Poppins", sans-serif;
+}
+
+.header .box {
+  height: 250px;
+  background-color: aqua;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.box {
+  margin-top: 30px;
+  height: 250px;
+}
+
+main {
+  margin-inline: auto;
+  padding-left: 1rem;
+}
+
+code {
+  color: aqua;
+}
+
+.lista {
+}
+
+.intestazione {
+  text-align: center;
+  font-weight: bold;
+}
+
+.tabella {
+  padding-left: 2rem;
+  padding: 2px;
+  border: 1px transparent lightgrey;
+}
+
+.riga {
+  border: 1px solid lightgray;
+}
+
+td {
+  width: 100px;
+}
+td {
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.box2 {
+  margin-inline: auto;
+  margin-top: 40px;
+  width: 250px;
+  background-color: rgb(214, 194, 194);
+}
